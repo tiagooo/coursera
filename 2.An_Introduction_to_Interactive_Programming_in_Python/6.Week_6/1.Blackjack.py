@@ -13,6 +13,9 @@ CARD_BACK_CENTER = (35.5, 48)
 card_back = simplegui.load_image("http://commondatastorage.googleapis.com/codeskulptor-assets/card_back.png")    
 
 # initialize some useful global variables
+globaldeck = ""
+playerhand = ""
+dealerhand = ""
 in_play = True
 outcome = ""
 msgplayerhandvl = ""
